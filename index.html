@@ -349,15 +349,15 @@
         transition: transform 0.4s ease-in-out; /* Liukuanimaatio kuvien vaihdon välillä */
         
         /* Pakotetaan karuselli 3 kuvan levyiseksi */
-        width: 300%; 
+        width: 400%; 
         
         /* ✨ KORJAUS 2: KIINTEÄ KORKEUS KUVAGALLERIALLE (700px) */
         height: 700px; 
     }
 
     .example-gallery img {
-        /* Jokainen kuva on tasan 1/3 (33.333%) koko karusellin leveydestä */
-        width: calc(100% / 3); 
+        /* Jokainen kuva on tasan 1/4 (25%) koko karusellin leveydestä */
+        width: calc(100% / 4); 
         
         /* ✨ KORJAUS 3: TÄMÄ PAKOTTAA KUVIEN KORKEUDEN (700px) */
         height: 700px; 
@@ -659,6 +659,7 @@
         <img src="kuva1.JPG" alt="Kuva 1 litofaani">
         <img src="kuva6.JPG" alt="Kuva 2 litofaani">
         <img src="kuva7.JPG" alt="Kuva 3 litofaani">
+        <img src="gif1.gif" alt="Litofaanin taika gif">
       </div>
       <button class="carousel-button" id="prevBtn" aria-label="Edellinen kuva">←</button>
       <button class="carousel-button" id="nextBtn" aria-label="Seuraava kuva">→</button>
